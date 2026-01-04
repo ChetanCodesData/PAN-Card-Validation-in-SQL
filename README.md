@@ -11,7 +11,7 @@ The dataset is given in a separate Excel file.
 
 # Instructions
 
-1. Data Cleaning and Preprocessing:
+# 1. Data Cleaning and Preprocessing:
 
 . Identify and handle missing data: PAN numbers may have missing values.
   These missing values need to be handled appropriately, either by
@@ -27,13 +27,13 @@ The dataset is given in a separate Excel file.
   (if any lowercase letters are present).
 
 
-2. PAN Format Validation: A valid PAN number follows the format:
+# 2. PAN Format Validation: A valid PAN number follows the format:
 
-# It is exactly 10 characters long.
+ It is exactly 10 characters long.
 
-# The format is as follows: AAAAA1234A
+ The format is as follows: AAAAA1234A
 
-# The first five characters should be alphabetic (uppercase letters)
+ The first five characters should be alphabetic (uppercase letters)
 
 
 1. Adjacent characters(alphabets) cannot be the same (like AABCD is
@@ -52,13 +52,13 @@ The last character should be alphabetic (uppercase letter).
 Example of a valid PAN: AHGVE1276F
 
 
-3. Categorisation:
+# 3. Categorisation:
 
 Valid PAN: If the PAN number matches the above format.
 Invalid PAN: If the PAN number does not match the correct format, is
 incomplete, or contains any non-alphanumeric characters.
 
-4. Tasks:
+# 4. Tasks:
 
 Validate the PAN numbers based on the format mentioned above.
 Create two separate categories:
@@ -66,7 +66,7 @@ Create two separate categories:
 - Invalid PAN
 
 
-Create a summary report that provides the following:
+# Create a summary report that provides the following:
 - Total records processed
 - Total valid PANs
 - Total invalid PANs
